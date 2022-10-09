@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="img-container">
+    <img class="logo" src="../../../../assets/icons/icon.jpg" alt="icon">
+  </div>
+  <form>
+    <div class="form-container">
+      <div class="input-container">
+        <mat-form-field>
+          <mat-label>Usuario</mat-label>
+          <input matInput placeholder="Ingrese su usuario" name="username"
+          [(ngModel)] ="username">
+        </mat-form-field>
+        </div>
+      <div class="input-container">
+        <mat-form-field>
+          <mat-label>Contraseña</mat-label>
+          <input matInput placeholder="Ingrese su contraseña" value="" name="password" type="password" [(ngModel)]= "password">
+        </mat-form-field>
+      </div>
+    </div>
+    <div class="btn-container">
+      <button mat-raised-button color="primary" routerLink="/dashboard" (click)="submit()">Ingresar</button>
+    </div>
+    <div class="btn-container">
+      <button mat-raised-button color="primary" routerLink="/registration" (click)="submit()">Registrarse</button>
+    </div>
+  </form>
+</div>

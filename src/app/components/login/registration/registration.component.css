@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  flex-direction: column;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+.form-container {
+  padding-bottom: 2%;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  flex-direction: column;
+}
+.logo {
+  border-radius: 50%;
+  width: 10%;
+  padding-bottom: 2%;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+.form-container {
+  padding-bottom: 2%;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+}
