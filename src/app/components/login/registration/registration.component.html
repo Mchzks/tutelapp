@@ -10,7 +10,7 @@
           <input matInput placeholder="Ingrese su usuario" name="username"
           [(ngModel)] ="username">
         </mat-form-field>
-        <mat-form-field>
+        <mat-form-field class="left-input">
           <mat-label>Contrasena</mat-label>
           <input matInput placeholder="Ingrese su contrasena" name="password"
           [(ngModel)] ="password">
@@ -22,7 +22,7 @@
           <input matInput placeholder="Ingrese sus nombres" name="names"
           [(ngModel)] ="names">
         </mat-form-field>
-        <mat-form-field>
+        <mat-form-field class="left-input">
           <mat-label>Apellidos</mat-label>
           <input matInput placeholder="Ingrese sus apellidos" name="surnames"
           [(ngModel)] ="surnames">
@@ -35,7 +35,7 @@
             <mat-option [value]="typeD" *ngFor="let typeD of TypesDocuments">{{typeD}}</mat-option>
           </mat-select>
         </mat-form-field>
-        <mat-form-field>
+        <mat-form-field class="left-input">
           <mat-label>Numero documento</mat-label>
           <input matInput placeholder="Ingrese el numero de documento" name="numberDocument"
           [(ngModel)] ="numberDocument">
@@ -48,7 +48,7 @@
             <mat-option [value]="location" *ngFor="let location of Locations">{{location}}</mat-option>
           </mat-select>
         </mat-form-field>
-        <mat-form-field>
+        <mat-form-field class="left-input">
           <mat-label>Direccion residencia</mat-label>
           <input matInput placeholder="Ingrese la direccion de residencia" name="direction"
           [(ngModel)] ="direction">
@@ -60,7 +60,7 @@
           <input matInput placeholder="Ingrese su numero de celular" name="cellphone"
           [(ngModel)] ="cellphone">
         </mat-form-field>
-        <mat-form-field>
+        <mat-form-field class="left-input">
           <mat-label>Ocupacion</mat-label>
           <input matInput placeholder="Ingrese sus ocupacion" name="ocupation"
           [(ngModel)] ="ocupation">
@@ -73,7 +73,7 @@
             <mat-option [value]="typeI" *ngFor="let typeI of TypeIncapacity">{{typeI}}</mat-option>
           </mat-select>
         </mat-form-field>
-        <mat-form-field>
+        <mat-form-field class="left-input">
           <mat-label>Pertenencia poblaciones</mat-label>
           <mat-select>
             <mat-option [value]="poblation" *ngFor="let poblation of Poblations">{{poblation}}</mat-option>

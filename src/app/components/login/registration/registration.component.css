@@ -21,3 +21,16 @@
   display: flex;
   justify-content: center;
 }
+.left-input {
+  margin-left: 4%;
+}
+@media screen and (max-width: 426px){
+  .input-container {
+    flex-direction: column;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  .left-input {
+    margin-left: 0%;
+  }
+}
